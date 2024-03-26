@@ -18,4 +18,9 @@ public class HelloController {
         return new HelloResponseDto(name, amount);
     }
 
+    @GetMapping("/test")
+    public void test() {
+        System.out.println("test");
+    }
+
 }
