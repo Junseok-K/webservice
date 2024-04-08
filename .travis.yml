@@ -18,7 +18,7 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r webservice
+  - zip -r webservice *
   - mkdir -p deploy
   - mv webservice.zip deploy/webservice.zip
 
