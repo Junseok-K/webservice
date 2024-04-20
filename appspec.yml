@@ -12,7 +12,7 @@ permissions:
     group: ec2-user
     mode: 775
 
-hook:
+hooks:
   ApplicationStart:
     - location: deploy.sh
       timeout: 60
