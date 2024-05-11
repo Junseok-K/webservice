@@ -30,6 +30,9 @@ public class IndexController {
 
         if (user != null) {
             model.addAttribute("userName", user.getName());
+
+        } else { // TODO 나중에 else 삭제
+            model.addAttribute("userName", "test_user");
         }
 
         // 앞의 경로와 뒤의 파일 확장자는 자동으로 지정되어 View Resolver가 처리
