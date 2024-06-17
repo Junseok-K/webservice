@@ -6,6 +6,6 @@ WORKDIR /app
 
 COPY build/libs/webservice-1.0.1-SNAPSHOT-20240613120512.jar /app/app.jar
 
-EXPOSE 8080
+EXPOSE 8081 8082
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
