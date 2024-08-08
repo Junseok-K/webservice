@@ -16,5 +16,9 @@ public class Application {
         System.out.println("■■■■■■■■■■ Database Edit ■■■■■■■■■■");
         System.out.println("http://localhost:8080/h2-console/");
         System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+
+        System.out.println("■■■■■■■■■■ Swagger UI ■■■■■■■■■■");
+        System.out.println("http://localhost:8080/swagger-ui/index.html");
+        System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■");
     }
 }
